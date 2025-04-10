@@ -8,10 +8,10 @@ The **Single Chat Application** is a JavaFX-based desktop program that enables r
 ## Project Demo
 
 ### Client UI
-![Client UI](assets/screenshots/client-ui.png)
+![Client UI](src/main/resources/lk/ijse/edu/chatapplication/assets/screenshots/client-ui.png)
 
 ### Server UI
-![Server UI](assets/screenshots/server-ui.png)
+![Server UI](src/main/resources/lk/ijse/edu/chatapplication/assets/screenshots/server-ui.png)
 
 > Make sure to place your screenshots in a folder named `screenshots` in the root directory of the project.
 
