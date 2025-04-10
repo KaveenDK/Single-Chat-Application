@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.edu.chatapplication.Controller.ServerController" stylesheets="@../stylesheets/ServerPage.css">
+    <children>
+        <AnchorPane layoutX="-1.0" prefHeight="400.0" prefWidth="600.0">
+            <children>
+                <Label layoutX="286.0" layoutY="21.0" text="Server">
+                    <font>
+                        <Font name="System Bold" size="22.0" />
+                    </font>
+                </Label>
+                <TextArea fx:id="txtArea" editable="false" layoutX="23.0" layoutY="53.0" prefHeight="290.0" prefWidth="353.0" />
+                <TextField fx:id="txtMessage" layoutX="23.0" layoutY="355.0" prefHeight="25.0" prefWidth="397.0" />
+                <Button layoutX="437.0" layoutY="355.0" mnemonicParsing="false" onAction="#sendOnAction" prefHeight="26.0" prefWidth="66.0" text="SEND" />
+            <Button layoutX="519.0" layoutY="355.0" mnemonicParsing="false" onAction="#sendImageOnAction" prefHeight="26.0" prefWidth="66.0" text="File" />
+            <ImageView fx:id="imageView" fitHeight="290.0" fitWidth="200.0" layoutX="385.0" layoutY="53.0" pickOnBounds="true" preserveRatio="true" />
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>
