@@ -13,8 +13,6 @@ The **Single Chat Application** is a JavaFX-based desktop program that enables r
 ### Server UI
 ![Server UI](src/main/resources/lk/ijse/edu/chatapplication/assets/screenshots/server-ui.png)
 
-> Make sure to place your screenshots in a folder named `screenshots` in the root directory of the project.
-
 ## Features
 
 - **Real-time Messaging**: Instantly send and receive text messages.
